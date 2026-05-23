@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "types": ["react", "react-dom"],
+    "strict": true,
     "target": "es6",
     "module": "esnext",
     "jsx": "react-jsx",

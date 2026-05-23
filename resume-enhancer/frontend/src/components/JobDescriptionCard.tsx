@@ -1,4 +1,4 @@
-import styles from "../styles/components/JobDescriptionCard.module.css";
+import styles from '../styles/components/JobDescriptionCard.module.css';
 
 type Props = {
   jobDescription: string;
@@ -13,8 +13,8 @@ export default function JobDescriptionCard({
     <div className={styles.card}>
       <h2 className={styles.title}>Job Description</h2>
       <p className={styles.helper}>
-        Paste the role requirements here. We’ll use this to compare skills,
-        keywords, and experience fit.
+        Paste the job description here as plain text. Any bullets or formatting
+        from the source will be stored as simple text lines.
       </p>
 
       <textarea
