@@ -1,0 +1,57 @@
+.card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 24px;
+  min-height: 320px;
+  box-shadow: 0 8px 24px rgba(17, 24, 39, 0.04);
+}
+
+.title {
+  margin: 0 0 8px;
+  font-size: 1.25rem;
+  color: #111827;
+}
+
+.helper {
+  margin: 0 0 16px;
+  color: #6b7280;
+  line-height: 1.5;
+}
+
+.dropzone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed #cbd5e1;
+  border-radius: 14px;
+  padding: 28px;
+  min-height: 180px;
+  text-align: center;
+  background: #f8fafc;
+  cursor: pointer;
+}
+
+.input {
+  display: none;
+}
+
+.dropText {
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 8px;
+}
+
+.formatText {
+  color: #6b7280;
+  font-size: 0.9rem;
+}
+
+.fileName {
+  margin-top: 16px;
+  padding: 12px;
+  border-radius: 10px;
+  background: #f3f4f6;
+  color: #111827;
+}

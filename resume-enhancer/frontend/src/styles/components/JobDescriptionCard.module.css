@@ -1,0 +1,45 @@
+.card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  padding: 24px;
+  min-height: 320px;
+  box-shadow: 0 8px 24px rgba(17, 24, 39, 0.04);
+}
+
+.title {
+  margin: 0 0 8px;
+  font-size: 1.25rem;
+  color: #111827;
+}
+
+.helper {
+  margin: 0 0 16px;
+  color: #6b7280;
+  line-height: 1.5;
+}
+
+.textarea {
+  width: 100%;
+  min-height: 180px;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  padding: 14px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  resize: vertical;
+  outline: none;
+}
+
+.textarea:focus {
+  border-color: #4f46e5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.12);
+}
+
+.footer {
+  margin-top: 12px;
+  color: #6b7280;
+  font-size: 0.875rem;
+  display: flex;
+  justify-content: flex-end;
+}
