@@ -3,11 +3,19 @@ import styles from "../styles/components/HeroHeader.module.css";
 export default function HeroHeader() {
   return (
     <header className={styles.header}>
-      <p className={styles.badge}>Profile Enhancer</p>
-      <h1 className={styles.title}>Improve your profile with job-fit insights</h1>
+      <div className={styles.brandRow}>
+        <div className={styles.logoCircle}>PE</div>
+        <div>
+          <h1 className={styles.appName}>Profile Enhancer</h1>
+          <p className={styles.tagline}>
+            Align your profile to the job in a few focused steps.
+          </p>
+        </div>
+      </div>
+
       <p className={styles.subtitle}>
-        Upload your resume or profile document and paste a job description to
-        get started. Analysis and enhancement content will appear here later.
+        Upload your resume and paste a job description to analyze fit and
+        enhance your profile. Additional insights and actions will appear here.
       </p>
     </header>
   );
